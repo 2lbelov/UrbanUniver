@@ -1,0 +1,8 @@
+my_string = input('Напишите что хотите: ')
+print('Получился следующий текст:',my_string)
+print(len(my_string))
+print('Получился следующий текст:',my_string.upper())
+print('Получился следующий текст:',my_string.lower())
+print('Получился следующий текст:',my_string.replace(' ', ''))
+print(my_string[0])
+print(my_string[-1])
