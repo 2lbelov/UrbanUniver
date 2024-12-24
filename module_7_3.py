@@ -36,6 +36,11 @@ class WordsFinder:
         return counters
 
 finder1 = WordsFinder('test_file.txt')
-print(finder1.get_all_words()) # Все слова
-print(finder1.find('TEXT')) # 3 слово по счёту
-print(finder1.count('teXT')) # 4 слова teXT в тексте всего
+print(finder1.get_all_words())
+print(finder1.find('TEXT'))
+print(finder1.count('teXT'))
+
+finder2 = WordsFinder('Rudyard Kipling - If.txt',)
+print(finder2.get_all_words())
+print(finder2.find('if'))
+print(finder2.count('if'))
